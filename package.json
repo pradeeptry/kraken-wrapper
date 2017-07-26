@@ -1,6 +1,6 @@
 {
-  "name": "kraken-wrapper",
-  "version": "1.0.1",
+  "name": "meteor-kraken-wrapper",
+  "version": "1.0.4",
   "description": "A wrapper for the Kraken exchange API",
   "main": "src/index.js",
   "scripts": {
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/coinsop/kraken-wrapper.git"
+    "url": "git+https://github.com/seanli/kraken-wrapper.git"
   },
   "keywords": [
     "kraken",
@@ -24,12 +24,12 @@
     "exchage",
     "cryptocurrency"
   ],
-  "author": "Olivers De Abreu <development@coinsop.com> (https://coinsop.com/)",
+  "author": "Sean Li <mail@sean.li> (https://sean.li/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/coinsop/kraken-wrapper/issues"
+    "url": "https://github.com/seanli/kraken-wrapper/issues"
   },
-  "homepage": "https://github.com/coinsop/kraken-wrapper#readme",
+  "homepage": "https://github.com/seanli/kraken-wrapper#readme",
   "devDependencies": {
     "babel-cli": "6.24.1",
     "babel-eslint": "7.2.3",
@@ -45,7 +45,5 @@
     "mocha": "3.4.2",
     "nodemon": "1.11.0"
   },
-  "dependencies": {
-    "crypto": "0.0.3"
-  }
+  "dependencies": {}
 }
